@@ -1,0 +1,6 @@
+/.pio/
+.DS_Store
+/.vscode/launch.json
+/.vscode/c_cpp_properties.json
+/dist/
+/examples/**/*.ino.cpp

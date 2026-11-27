@@ -1,0 +1,14 @@
+{
+  "name": "AS5600ClosedLoopStepper",
+  "version": "0.3.0",
+  "description": "Closed-loop control of up to four A4988 steppers on the original ESP32 with AS5600 feedback.",
+  "keywords": ["stepper", "encoder", "motion", "as5600", "a4988"],
+  "authors": [{"name": "figamore", "maintainer": true}],
+  "license": "GPL-3.0-only",
+  "frameworks": ["arduino"],
+  "platforms": ["espressif32"],
+  "headers": ["AS5600ClosedLoopStepper.h"],
+  "export": {
+    "include": ["src", "examples/*/*.ino", "examples/*/*.h", "platformio.ini", "LICENSE", "README.md", "library.json", "library.properties"]
+  }
+}
