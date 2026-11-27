@@ -9,6 +9,6 @@
   "platforms": ["espressif32"],
   "headers": ["AS5600ClosedLoopStepper.h"],
   "export": {
-    "include": ["src", "examples/*/*.ino", "examples/*/*.h", "platformio.ini", "LICENSE", "README.md", "library.json", "library.properties"]
+    "include": ["src", "examples/*/*.ino", "examples/*/*.h", "images/*.png", "images/*.jpg", "platformio.ini", "LICENSE", "README.md", "library.json", "library.properties"]
   }
 }
